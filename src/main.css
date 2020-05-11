@@ -1,0 +1,273 @@
+:root {
+    --primary: #474787;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Social media icons */
+
+.header {
+    height: 4rem;
+}
+
+.icons {
+    font-size: 1.5rem;
+}
+
+.icons svg {
+    width: 1.5rem;
+    margin-right: .9rem;
+}
+
+svg#fa-facebook {
+    width: 1rem;
+}
+
+.icons a {
+    color: black;
+}
+
+.icons svg:hover {
+    fill: #5858a5;
+}
+
+.brand a {
+    color: black;
+    font-size: 2rem;
+    font-weight: 700;
+    text-decoration: none!important;
+}
+
+/* Navbar */
+
+.nav-link {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: black
+}
+
+.nav-link:hover {
+    color: #5858a5;
+}
+
+/* Media Scroll */
+
+.bg-man {
+    background-image: url(images/an-on-treadmill-1954524.jpg);
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 34rem;
+}
+
+.bg-woman-1 {
+    background-image: url(images/woman-1.jpg);
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 34rem;
+}
+
+.bg-woman-2 {
+    background-image: url(images/woman-2.jpg);
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 34rem;
+}
+
+.bg-woman-3 {
+    background-image: url(images/woman-3.jpg);
+    background-position: center top right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 38rem;
+}
+
+@media(max-width:768px) {
+    .bg-woman-3 {
+        background-image: url(images/woman-3.jpg);
+        background-position: center right;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 38rem;
+    }
+    .caption-down {
+        margin-top: -7rem;
+    }
+}
+
+.dark {
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 100%;
+}
+
+.caption {
+    color: white;
+    line-height: 2rem;
+}
+
+.caption h1 {
+    font-size: 3.8rem;
+    font-weight: 700;
+    text-shadow: 5px 5px 5px black;
+}
+
+.info {
+    padding: 80px 0;
+}
+
+/* Shapes */
+
+.arrow-shape {
+    background-image: url(images/forma-flecha.png);
+    background-size: 92rem;
+    height: 18rem;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+.shape-1 {
+    background-image: url(images/forma-flecha2.png);
+    background-size: 95rem;
+    height: 14rem;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+}
+
+/* Info section */
+
+.nav-tabs {
+    border-bottom: 1px solid #474787;
+}
+
+.nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+    color: #495057;
+    background-color: #fff;
+    border-color: #474787 #474787 #fff;
+}
+
+/* icons section */
+
+.content-icons {
+    padding: 200px 0;
+    background-color: #474787;
+}
+
+/* Trainers section */
+
+.info-trainers {
+    padding: 80px 0;
+}
+
+/* info-down section */
+
+.caption-down {
+    position: absolute;
+    top: 5rem;
+    left: auto;
+    color: white;
+}
+
+/* Prices section */
+
+#prices {
+    padding: 80px 0;
+    background-color: #474787;
+}
+
+ul.card-text li {
+    margin-top: 1.2rem;
+}
+
+h2.display-4 {
+    font-weight: 700;
+    color: #474787;
+}
+
+/* Contact */
+
+.bg-contact {
+    background-image: url(images/contact-bg.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    height: 48rem;
+    width: 100%;
+    background-size: cover;
+    margin-top: -2rem;
+    z-index: -9999;
+    position: absolute;
+}
+
+.arrow-shape form {
+    margin-top: 14rem;
+}
+
+button.button {
+    font-weight: 700;
+    font-size: 1.5rem;
+    display: block;
+    width: 100%;
+}
+
+.btn-primary {
+    background-color: #5858a5;
+    text-decoration: #5858a5!important;
+    border-color: #5858a5!important;
+}
+
+.btn-primary:hover, .btn-primary:active, .btn-primary:focus {
+    background-color: #4b4b8f!important;
+    border-color: #4b4b8f!important;
+    box-shadow: 0 0 0 0.2rem #7b7bb3!important;
+}
+
+#form1 input, #form1 a, #form1 label {
+    border-radius: 2rem;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+.btn-fix{
+    margin-top: 2rem;
+}
+
+@media(min-width:768px) {
+    #form1 a {
+        border-radius: 2rem;
+        padding: 1rem 11rem;
+    }
+    #form1 .btn-fix {
+        margin-top: 3.5rem;
+    }
+    .bg-contact {
+        background-image: url(images/contact-bg.jpg);
+        background-position: center top;
+        background-repeat: no-repeat;
+        height: 48rem;
+        width: 100%;
+        background-size: cover;
+        margin-top: -2rem;
+        z-index: -9999;
+        position: absolute;
+    }
+
+    div.bg-contact{
+        height: 75rem;
+    }
+
+    button.button {
+        font-weight: 700;
+        font-size: 1.2rem;
+        display: inline-block;
+        width: 50%;
+        border-radius: 2rem;
+        margin-top: -1rem;
+    }
+    
+}
