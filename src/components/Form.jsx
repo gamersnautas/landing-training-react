@@ -1,6 +1,6 @@
 import React, { Fragment, useState, useEffect } from 'react'
 
-const API = process.env.REACT_APP_LANDING
+const API = process.env.REACT_APP_API
 
 
 export const Form = () => {
@@ -22,7 +22,6 @@ export const Form = () => {
         })
 
         const resp = await data.json(); // Caputaramos la respuesta del servidor de Flask
-        console.log(resp)
     }
 
     return (
